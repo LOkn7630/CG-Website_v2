@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <%- include("partials/header") %>
+    <link rel="stylesheet" href="../stylesheets/contact.css">
+</head>
+
+<body>
+    <%- include("partials/navbar") %>
+
+    <h1 class="section_header">Get in Touch</h1>
+    <h2 class="section_sub">IF YOU TOO HAVE LIKED OUR SERVICES, DO LET US KNOW!</h2>
+
+
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-6"><img src="../images/touch.png" /></div>
+        <hr />
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
+            <form action="/contact/message" method="POST">
+                <div class="form-group">
+                    <p>Name</p>
+                    <input class="form-control" type="text" name="name" placeholder="Your Good Name Please" required>
+                </div>
+                <div class="form-group">
+                    <p>Email</p>
+                    <input class="form-control" type="email" name="email" placeholder="We will contact you here"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <p>Message</p>
+                    <textarea class="form-control" type="text" name="message" rows="6" cols="40"
+                        placeholder="What do you think of us?" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button>Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <%- include("partials/footer") %>
+</body>
+
+</html>

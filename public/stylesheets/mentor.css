@@ -1,0 +1,87 @@
+section{
+    background-color:  #F2F2F2;
+    padding-bottom: 20px;
+}
+
+.mentor-1{
+    margin: 30px 15% 10px 15%;
+    max-width: 70%;
+    max-height: 100%;
+}
+.we{
+    font-family: Alegreya Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 60px;
+line-height: 97%;
+margin-top: 6%;
+
+align-items: center;
+
+color: rgb(113, 107, 202);
+}
+
+.started-1{
+    border:none;
+    outline:none;
+    width: 250px;
+    height: 60px;
+    background: #00BFA6;
+    border-radius: 14px;
+    font-family: Amaranth;
+    position: relative;
+    box-shadow: 0px 6px 2px rgba(0, 0, 0, 0.5);
+    font-size: 35px;
+    line-height: 94%;
+    align-items: center;
+    text-align: center;
+    text-indent: 9px;
+    color: #090808;
+    margin-top: 2%;
+
+}
+
+.started-2{
+    border:none;
+    outline:none;
+    width: 250px;
+    height: 60px;
+    background: rgb(243, 121, 94);
+    border-radius: 14px;
+    font-family: Amaranth;
+    position: relative;
+    box-shadow: 0px 6px 2px rgba(0, 0, 0, 0.5);
+    font-size: 35px;
+    line-height: 94%;
+    align-items: center;
+    text-align: center;
+    text-indent: 9px;
+    color: #090808;
+    margin-top: 3%;
+
+}
+
+button:hover{
+    box-shadow: 0 4px 2px rgba(0, 0, 0, 0.5);
+    top:2px;
+}
+
+button:active{
+    outline:none;
+    box-shadow: none;
+    top:6px;
+}
+button:focus{
+    outline:none;
+}
+h3{
+    font-family: Amaranth;
+    
+}
+a{
+    color: black;
+}
+a:hover{
+    color: black;
+    text-decoration: none;
+}

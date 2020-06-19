@@ -1,0 +1,168 @@
+.section1
+{
+    background: #F2F2F2;
+}
+#dream-main
+{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 10px;
+    margin: 1% 5%;
+    box-sizing: border-box;
+}
+#dream-main-image
+{
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 5%;
+    box-sizing: border-box;
+}
+#image-container
+{
+    box-sizing: border-box;
+    height: 80%;
+    width: 80%;
+}
+#img1
+{
+    height: 100%;
+    width: 100%;
+}
+#dream-main-text h2
+{
+    font-family: Alegreya Sans;
+    font-style: normal;
+    font-weight: bold;
+    color: #4C4981;
+    font-size: 40px;
+    line-height: 70px;
+}
+#dream-main-text
+{
+    width: 50%;
+}
+#dream-main-text p
+{
+    font-family: Actor;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+
+@media screen and (max-width: 600px)
+{ 
+    #dream-main-image
+    {
+        width: 90%;
+    }
+    #dream-main-text
+    {
+        width: 90%;
+    }
+    #dream-main
+    {
+        flex-wrap: wrap;
+        padding: 5px;
+    }
+    #dream-main-text h2
+    {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    #dream-main-text p
+    {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+ } 
+
+
+#dream-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 1% 5%;
+    justify-content: center;
+    align-items: center;
+}
+#dream-text
+{
+    width: 50%;
+}
+#dream-text p
+{
+  font-size: 20px;
+  font-family: Actor;
+  font-style: normal;
+   font-weight: normal;
+  margin-top: 8%;
+  text-align: justify;
+  color: #000000;
+}
+#dream-image
+{
+    width: 50%;
+}
+
+#img2
+{
+    width: 100%;
+    height: 100%;
+}
+
+
+ @media screen and (max-width: 600px)
+{ 
+    #dream-text p
+    {
+        font-size: 15px;
+    }
+    #dream-image
+    {
+      width: 80%;
+    }
+    #dream-text
+   {
+      width: 80%;
+   }
+ } 
+
+
+.section3{
+    background: #F2F2F2;
+}
+
+#service-list
+{
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background: #F2F2F2;
+}
+#service-element{
+    padding: 2%;
+}
+#service-element h3
+{
+    
+    font-family: Actor;
+}
+#service-element p
+{
+    font-size: 20px;
+    font-family: Actor;
+    font-weight: 300;
+}
+@media screen and (max-width: 600px)
+{
+    #service-element p
+    {
+        font-size: 13px;
+        font-weight: 200;
+    }
+} 

@@ -1,0 +1,61 @@
+.page-footer{
+	background-color: #ffffff;
+}
+
+.venture{
+
+	font-family: Bad Script;
+	font-style: italic;
+	font-weight: bolder;
+	font-size: 15px;
+	line-height: 25px;
+	text-indent: 9px;
+
+	color: #000000;
+}
+.counselling{
+
+font-family: Actor;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 20px;
+/* or 125% */
+
+text-indent: 9px;
+
+color: #000000;
+}
+
+.heading{
+	font-family: Amaranth;
+	font-size: 21px;
+	line-height: 20px;
+	/* or 94% */
+
+	display: flex;
+	align-items: center;
+	text-indent: 9px;
+}
+.list-unstyled{
+	font-family: Actor;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 20px;
+	
+	text-indent: 9px;
+
+}
+.list-unstyled li a{
+	color:black;
+}
+
+.list-unstyled li a:hover{
+	text-decoration: none;
+}
+
+.socials img{
+	height: 30px;
+	width: 30px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/stylesheets/forgot.css">
+    <link rel="stylesheet" href="/stylesheets/navbar.css">
+    <link rel="stylesheet" href="/stylesheets/footer.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Revalia&family=Lemon&family=Pavanam&family=Actor&family=Alegreya+Sans:wght@700&family=Amaranth&display=swap"
+        rel="stylesheet">
+
+    <title>Forgot Password</title>
+</head>
+
+<body>
+    <%- include("partials/navbar") %>
+    <%- include("partials/messages") %>
+
+    <form action="/auth/forgot" method="POST">
+        <legend>Forgot Password</legend>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" autofocus class="form-control">
+        </div>
+        <div class="form-group">
+            <button class="btn btn-primary">Resest Password</button>
+        </div>
+    </form>
+
+
+    <%- include("partials/footer") %>
+</body>
+
+</html>

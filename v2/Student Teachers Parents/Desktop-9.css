@@ -1,0 +1,86 @@
+.active{
+    border:none;
+    outline:none;
+    width: 200px;
+    height: 60px;
+    background: #3A474C;
+    border-radius: 14px;
+    font-family: Amaranth;
+    position: relative;
+    box-shadow: 0px 6px 2px rgba(0, 0, 0, 0.5);
+    font-size: 35px;
+    line-height: 94%;
+    align-items: center;
+    text-align: center;
+    text-indent: 9px;
+    color: #090808;
+    margin-top: 10px;   
+    margin-bottom: 10px;
+    margin-left: 35px;
+}
+.nonactive{
+    border:none;
+    outline:none;
+    width: 200px;
+    height: 60px;
+    background: #6E7476;
+    border-radius: 14px;
+    font-family: Amaranth;
+    position: relative;
+    box-shadow: 0px 6px 2px rgba(0, 0, 0, 0.5);
+    font-size: 35px;
+    line-height: 94%;
+    align-items: center;
+    text-align: center;
+    text-indent: 9px;
+    color: #090808;
+    margin-bottom: 10px;
+    margin-left: 35px;
+}
+
+button:hover{
+    box-shadow: 0 4px 2px rgba(0, 0, 0, 0.5);
+    top:2px;
+}
+
+button:active{
+    outline:none;
+    box-shadow: none;
+    top:6px;
+}
+button:focus{
+    outline: none;
+}
+
+.c1{
+    width: 470px;
+height: 300px;
+margin-left: 0px;
+margin-top: 40px;
+
+box-shadow: -20px -20px 40px rgba(0, 0, 0, 0.15), 20px 20px 40px rgba(0, 0, 0, 0.15);
+border-radius: 25px;
+background: #F2F2F2;
+}
+.c11{
+    font-family: Amaranth;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 35px;
+padding: 30px;
+align-items: center;
+
+color: #000000;
+}
+.c111{
+    font-family: Amaranth;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 35px;
+margin-top: 8px;
+text-align:  center;
+
+color: #000000;
+}

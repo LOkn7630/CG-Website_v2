@@ -1,0 +1,128 @@
+.content a{
+    text-decoration: none;
+    color: white;
+}
+
+.content1{
+    background:url("../images/blog-home/blog1.png");
+    height: 350px;
+    background-size: cover;
+    margin-bottom:20px;
+    text-align: center;
+    padding: 140px 0;
+    background-position: center;
+    transition: transform .2s;
+}
+.content2{
+    background:url("../images/blog-home/blog2.jpg");
+    height: 350px;
+    background-size: cover;
+    margin-bottom:20px;
+    text-align: center;
+    padding: 140px 0;
+    background-position: center;
+    transition: transform .2s;
+}
+.content3{
+    background:url("../images/blog-home/blog3.jpg");
+    height: 350px;
+    background-size: cover;
+    margin-bottom:20px;
+    text-align: center;
+    padding: 140px 0;
+    background-position: center;
+    transition: transform .2s;
+}
+.content4{
+    background:url("../images/blog-home/blog4.jpeg");
+    height: 350px;
+    background-size: cover;
+    margin-bottom:20px;
+    text-align: center;
+    padding: 140px 0;
+    background-position: center;
+    transition: transform .2s;
+}
+.content5{
+    background:url("../images/blog-home/blog5.jpeg");
+    height: 350px;
+    background-size: cover;
+    margin-bottom:20px;
+    text-align: center;
+    padding: 140px 0;
+    background-position: center;
+    transition: transform .2s;
+}
+
+.content6{
+    background:url("../images/blog-home/blog6.jpg");
+    height: 350px;
+    background-size: cover;
+    margin-bottom:20px;
+    text-align: center;
+    padding: 140px 0;
+    background-position: center;
+    transition: transform .2s;
+}
+
+.content7{
+    background:url("../images/blog-home/blog7.png");
+    height: 350px;
+    background-size: cover;
+    margin-bottom:20px;
+    text-align: center;
+    padding: 140px 0;
+    background-position: center;
+    transition: transform .2s;
+}
+
+.content12{
+    background:url("../images/blog-home/blog12.jpg");
+    height: 350px;
+    background-size: cover;
+    margin-bottom:20px;
+    text-align: center;
+    padding: 140px 0;
+    background-position: center;
+    transition: transform .2s;
+}
+
+.content:hover{
+    box-shadow: 5px 10px 8px #888888;
+    transform: scale(1.05);
+}
+.container{
+    margin-top:40px; 
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
+
+/* Common Margin Classes */
+
+.m0 {
+    margin: 0;
+}
+
+.mb75px {
+    margin-bottom: 75px;
+}
+
+.mb50px {
+    margin-bottom: 50px;
+}
+
+
+
+/*common color classes */
+
+.text-highlight {
+    color: #2857a4;
+    font-weight: 600;
+}

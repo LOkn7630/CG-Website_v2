@@ -1,0 +1,39 @@
+.section7{
+    background-color: #F2F2F2;
+}
+.section7 .section-header{
+  padding: 20px;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 95%;
+  align-items: center;
+  text-align: center;
+  color: #3F3D56;
+  text-transform: uppercase;
+
+}
+.section7 .col{
+    padding:20px 60px;
+}
+.section7 .col #para1{
+  padding: 10px 0;
+font-family: Amaranth;
+font-size: 30px;
+font-weight: normal;
+line-height: 100%;
+color: #000000;
+}
+.section7 .col #para2{
+  padding: 10px 0;
+  font-family: Amaranth;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 100%;
+  color: #000000;
+}
+.section7 img{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}

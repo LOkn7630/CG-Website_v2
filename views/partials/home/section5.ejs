@@ -1,0 +1,72 @@
+<div class="container-fluid" id="main_disp">
+
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-4  col-lg-4">
+            <img src="/images/rank/img-1.png">
+        </div>
+
+        <div class="col col-12 col-sm-12 col-md-4  col-lg-4">
+            <h1 class="section_header">JEE Rank Predictor</h1>
+            <div id="myForm">
+                <div class="form-group">
+                    <input class="form-control" name="name" type="text" id="myInput"
+                        placeholder="Enter Your JEE Percentile">
+                </div>
+                <div class="predictor">
+                    <button onclick="predictRank()">Know Your Rank Now </button>
+                </div>
+
+
+            </div>
+            <div id="alert" class="alert alert-warning alert-dismissible fade" role="alert">
+                Please enter valid Percentile
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="col col-md-4  col-lg-4">
+            <img src="/images/rank/img-2.png">
+        </div>
+    </div>
+</div>
+
+
+
+<!-- <div class="disp-form" id="disp" style="display: none;">
+    <h4 id="h4">Predicted JEE-Mains Rank in General Category:</h4>
+    <div class="form-group">
+        <span id="rank"></span>
+    </div>
+    <div class="form-group">
+        <button class="btn btn-sm btn-danger" onclick="hidePredictor()">Close</button>
+    </div>
+</div> -->
+
+
+<div class="container-fluid" id="disp" style="display:none;">
+
+    <div class="row">
+        <div class="col col-md-4  col-lg-4" style="padding: 0px 20px;">
+            <img src="/images/rank/img-3.png">
+        </div>
+
+        <div class="col col-12 col-sm-12 col-md-4  col-lg-4">
+            <h1 class="section_header" id="h1">Predicted JEE rank</h1>
+            <form action="#">
+                <div class="form-group">
+                    <p class="air" class="air">All India Rank</p>
+                    <input class="form-control" name="name" type="text" id="rank" readonly>
+                </div>
+                <div class="predictor">
+                    <button type="submit">Explore More</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="col col-md-4  col-lg-4">
+            <img src="/images/rank/img-4.png">
+        </div>
+    </div>
+</div>

@@ -1,0 +1,20 @@
+<%- include("partials/home-header") %>
+<div class="container">
+  <h1>Welcome to your profile, <%= currentUser.username %></h1>
+  <img src="<%= currentUser.thumbnail %>" style="width: 180px;" />
+
+  <form
+    action="/profile/<%=currentUser._id%>/upload"
+    method="POST"
+    enctype="multipart/form-data"
+  >
+    <div class="form-group">
+      <input name="myImage" class="form-control-file" type="file" />
+    </div>
+
+    <button type="submit" class="btn btn-sm btn-primary">Submit</button>
+  </form>
+  <br />
+</div>
+
+<%- include("partials/footer") %>

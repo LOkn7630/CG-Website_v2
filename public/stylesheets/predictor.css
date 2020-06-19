@@ -1,0 +1,76 @@
+
+.heading{
+    padding-top: 30px;
+}
+
+.tag-name{
+    background: #F2F2F2;
+    display: table;
+    border-radius: 20px;
+    text-align: center;
+    padding:  20px;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 50px;
+    color: #000;
+}
+
+
+
+.c1{
+    width: 470px;
+height: 500px;
+margin-left: 25%;
+margin-top: 40px;
+
+border-radius: 25px;
+background: rgb(243, 243, 243);
+}
+
+.details{
+    display: inline-block;
+    padding: 4px 10px 10px 0;
+    vertical-align: top;
+    min-width: 240px;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: 700;
+    
+}
+.forms{
+    padding: 10%;
+}
+.form-field{
+    margin-left: 20%;
+    padding-top: 2%;
+    /* padding-left: 20%; */
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+.enter{
+    align-items: center;
+    font-size: 18px;
+    border-radius: 2px;
+    display: table;
+    border: 2px solid #a8bdc4;
+    background: #0099e1;
+    color: #fff;
+    padding: 6px 15px;
+    /* position: absolute; */
+    /* z-index: 1; */
+}
+
+.dreams{
+    font-size: 30px;
+    color: rgb(26, 18, 18);
+    display: inline-block;
+    margin-bottom: 30px;
+} 
+@media (max-width:600px){
+    .tag-name{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,51 @@
+.section2{
+    background-color: #FFFDFD;
+}
+
+.section2 .section_header{
+    margin-top: 20px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 87%;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'kern' off;
+    color: #4C4981;
+}
+.section2 .section_sub{
+    font-family: 'Amaranth', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 125%;
+    align-items: center;
+    text-align: center;
+    color: #00BFA6;
+    margin-bottom: 50px;
+}
+
+.section2 img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section2 .col{
+    padding:20px 60px;
+}
+
+.text{
+font-family: Pavanam;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 150%;
+display: flex;
+align-items: center;
+text-indent: 9px;
+
+color: #000000;
+}

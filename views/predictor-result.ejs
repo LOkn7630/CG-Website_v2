@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include("partials/header") %>
+    <link rel="stylesheet" href="/stylesheets/predictor-result.css">
+
+</head>
+
+<body>
+    <%- include("partials/navbar") %>
+
+    <table class="table table-bordered table-hover css-serial">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Serial No.</th>
+                <th scope="col">Institute Name</th>
+                <th scope="col">Branch Name</th>
+                <th scope="col">Category</th>
+                <th scope="col">Seat Pool</th>
+                <th scope="col">Openning Rank</th>
+                <th scope="col">Closing Rank</th>
+            </tr>
+        </thead>
+
+
+        <tbody>
+            <% data.forEach(element=>{ %>
+            <tr>
+                <th scope="row"></th>
+                <td><%= element["Institute Name"] %></td>
+                <td><%= element["Branch Name"] %></td>
+                <td><%= element["Category"] %></td>
+                <td><%= element["Seat Pool"] %></td>
+                <td><%= element["Openning Rank"] %></td>
+                <td><%= element["Closing Rank"] %></td>
+            </tr>
+            <% }) %>
+        </tbody>
+    </table>
+
+
+
+
+    <%- include("partials/footer") %>
+</body>
+
+</html>

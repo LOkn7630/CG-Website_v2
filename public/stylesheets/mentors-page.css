@@ -1,0 +1,84 @@
+section{
+    background-color: #939da8;
+    padding-bottom: 60px;
+}
+.m1{
+width: 400px;
+height: 120px;
+margin-left: 20px;
+margin-top: 80px;
+
+box-shadow: -20px -20px 40px rgba(0, 0, 0, 0.55), 20px 20px 40px rgba(0, 0, 0, 0.55);
+border-radius: 25px;
+background: #F2F2F2;
+}
+.m11{
+    font-family: Amaranth;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+font-weight: 800;
+/*line-height: 35px;*/
+padding: 5%;
+text-align: center;
+
+color: #000000;
+}
+.m111{
+font-family: Alegreya;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+font-weight: 400;
+line-height: 35px;
+margin-top: 2%;
+text-align:  center;
+
+color: #000000;
+}
+
+.coll-img{
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-left: 2%;
+	margin-top: 8%;
+}
+
+@media (max-width:1200px){
+    .m1{
+    	width: 310px;
+		height: 120px;
+    	margin-left: 16%;
+    }
+    .m11{
+    	font-size: 20px;
+    }
+}
+
+@media (max-width:768px){
+    .m1{
+    	width: 300px;
+		height: 120px;
+    	margin-left: 16%;
+    }
+    .m11{
+    	font-size: 15px;
+    }
+    .m111{
+    	font-size: 20px;
+    }
+}
+@media (max-width: 650px){
+    .m1{
+    	width: 300px;
+		height: 120px;
+    	margin-left: 10%;
+    }
+    .m11{
+    	font-size: 15px;
+    }
+    .m111{
+    	font-size: 20px;
+    }
+}

@@ -1,0 +1,88 @@
+.content{
+  margin: 0;
+  padding-top:0;
+  width: 100%;
+  background: #FD7F64;
+}
+.col1 .header{
+  margin: 0;
+  padding-top: 50px;
+  font-family: Amaranth;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 100%;
+  width: 120%;
+  height: 100%;
+  border: 1px solid #97b4bd;
+  border-top-right-radius: 35%;
+  border-bottom-right-radius: 35%;
+  text-align: center;
+  justify-content: center;
+  background: #97b4bd;
+
+}
+.container{
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.col{
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.col button{
+    border:none;
+    outline:none;
+    width: 100%;
+    height: 80%;
+    background: #40c2e3;
+    border-radius: 14px;
+    font-family: Amaranth;
+    position: relative;
+    box-shadow: 6px 6px 2px rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    line-height: 94%;
+    align-items: center;
+    text-align: center;
+    color: #090808;
+    margin-bottom: 20px;
+}
+
+.col button:hover{
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.5);
+    top:2px;
+}
+
+.col button:active{
+    outline:none;
+    box-shadow: none;
+    top:6px;
+}
+.col button:focus{
+    outline: none;
+}
+.col img{
+  height: 120px;
+  width: 90px;
+  padding: 0;
+  margin: 0;
+}
+.col h2{
+  padding-left: 10px;
+  font-family: Amaranth;
+  font-weight: normal;
+  font-size: 28px;
+  text-align: center;
+}
+.col h3{
+  padding-left: 10px;
+  font-family: Pavanam;
+  font-weight: normal;
+  font-size: 20px;
+  padding-bottom: 5px;
+  text-align: center;
+}
